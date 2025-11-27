@@ -6,7 +6,7 @@ The testbench is a crucial part of the verification environment, responsible for
 
 The testbench class serves as the top-level container for all testbench components. It orchestrates the interactions between drivers, monitors, and scoreboards, ensuring that the DUT is properly stimulated and its responses are accurately checked.
 
-```pythonpython
+```python
 class Testbench(BaseBench):
     """
     Testbench wrapped around the simple 2-to-1 stream arbiter.
